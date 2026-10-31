@@ -175,7 +175,3 @@ Git local repository ---> GitHub
                              |
                              v
                          Client
-
-## 9. Conclusion
-
-The Student Management REST API was developed using Node.js and Express. Git and GitHub were used for version control and source-code hosting. Jenkins automated dependency installation, testing and Docker image creation. Docker packaged the application, while Kubernetes deployed multiple replicas and exposed them through a Service. Automated tests validated successful retrieval and creation, invalid input handling and not-found behavior.
