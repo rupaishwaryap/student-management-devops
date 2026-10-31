@@ -175,18 +175,7 @@ Git local repository ---> GitHub
                              |
                              v
                          Client
-```
 
-## 9. Evidence to capture for a lab record
-
-- GitHub repository page showing uploaded source files.
-- Terminal showing `git status`, `git log` and successful `git push`.
-- Jenkins pipeline stage view and successful console output.
-- `npm test` output showing all tests passed.
-- Docker image listing (`docker images`) and running container (`docker ps`).
-- Kubernetes outputs for `kubectl get deployments`, `kubectl get pods` and `kubectl get services`.
-- Browser/Postman response from `/api/students` and `/health`.
-
-## 10. Conclusion
+## 9. Conclusion
 
 The Student Management REST API was developed using Node.js and Express. Git and GitHub were used for version control and source-code hosting. Jenkins automated dependency installation, testing and Docker image creation. Docker packaged the application, while Kubernetes deployed multiple replicas and exposed them through a Service. Automated tests validated successful retrieval and creation, invalid input handling and not-found behavior.
